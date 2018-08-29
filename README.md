@@ -1,6 +1,8 @@
 PriorityQueue
 =============
 
+[![Build Status](https://travis-ci.org/valantonini/PriorityQueue.svg?branch=master)](https://travis-ci.org/valantonini/PriorityQueue)
+
 A C# priority queue
 
 Items will need to implement the provided [IPrioritizable](https://github.com/valantonini/PriorityQueue/blob/master/PriorityQueue/IPrioritizable.cs) interface which has 2 methods AddIndexUpdatedAction(Action indexUpdated) and RemoveIndexUpdatedAction(). Save the indexUpdated action to a field variable and call it whenever the indexed value is changed. A comparer class will also need to be provided.
