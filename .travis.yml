@@ -6,6 +6,6 @@ install:
 script:
   - xbuild /p:Configuration=Release PriorityQueue.sln
   - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./PriorityQueue.Tests/bin/Release/PriorityQueue.Tests.dll
-  - nuget pack ./PriorityQueue/PriorityQueue.nuspec -Version $MAJOR_VERSION_NUMBER.$MINOR_VERSION_NUMBER.$TRAVIS_BUILD_NUMBER
+  - nuget pack ./PriorityQueue/PriorityQueue.nuspec -Version $MAJOR_VERSION_NUMBER.$MINOR_VERSION_NUMBER.$TRAVIS_BUILD_NUMBER -OutputDirectory nuget
   - nuget setApiKey $NUGET_API_KEY -Source https://www.nuget.org -Verbosity quiet
-  - nuget push PriorityQueue.$MAJOR_VERSION_NUMBER.$MINOR_VERSION_NUMBER.$TRAVIS_BUILD_NUMBER.nupkg -Source https://www.nuget.org/api/v2/package 
+  - nuget push ./nuget/PriorityQueue.$MAJOR_VERSION_NUMBER.$MINOR_VERSION_NUMBER.$TRAVIS_BUILD_NUMBER.nupkg -Source https://www.nuget.org/api/v2/package 
