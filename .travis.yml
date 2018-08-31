@@ -1,5 +1,7 @@
 language: csharp
 solution: PriorityQueue.sln
+env: 
+  - MAJOR_VERSION_NUMBER=1
 install:
   - nuget restore PriorityQueue.sln
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
