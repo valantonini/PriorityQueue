@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>PriorityQueue</id>
-    <title>Priority Queue</title>
-    <summary>Priority Queue</summary>
+    <id>PriorityQueueLite</id>
+    <title>Priority Queue Lite</title>
+    <summary>A simple and quick priority queue implementation</summary>
     <version>1.0.1</version>
     <authors>val antonini</authors>
     <owners>val antonini</owners>
     <licenseUrl>https://github.com/valantonini/PriorityQueue/blob/master/license.txt</licenseUrl>
     <projectUrl>https://github.com/valantonini/PriorityQueue</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>C# Priority Queue</description>
+    <description>A simple and quick C# priority queue</description>
     <releaseNotes>Version 1</releaseNotes>
     <copyright>Copyright 2018</copyright>
-    <tags>Priority Queue</tags>
+    <tags>Priority Queue Collection</tags>
     <dependencies>
     </dependencies>
   </metadata>
