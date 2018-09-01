@@ -7,7 +7,7 @@
     <version>1.0.1</version>
     <authors>val antonini</authors>
     <owners>val antonini</owners>
-    <licenseUrl>https://github.com/valantonini/PriorityQueue/blob/master/license.txt</licenseUrl>
+    <licenseUrl>https://github.com/valantonini/PriorityQueue/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/valantonini/PriorityQueue</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A simple and quick C# priority queue</description>
